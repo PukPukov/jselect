@@ -1,0 +1,9 @@
+{
+  "javas": {
+    "8f": "C:\\applications\\sdks\\jdks\\jdk8u312-b07",
+    "8":  "C:\\applications\\sdks\\jdks\\jdk8u432-b06",
+    "17": "C:\\applications\\sdks\\jdks\\temurin-17.0.9",
+    "21": "C:\\applications\\sdks\\jdks\\graalvm-jdk-21.0.7+8.1",
+    "24": "C:\\applications\\sdks\\jdks\\graalvm-jdk-24.0.1+9.1"
+  }
+}

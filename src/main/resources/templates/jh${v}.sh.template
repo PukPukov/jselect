@@ -1,0 +1,6 @@
+#!/bin/bash
+
+JVM_PATH=${java_path}
+export JAVA_HOME="$JVM_PATH"
+
+"$@"

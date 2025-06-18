@@ -1,0 +1,4 @@
+@echo off
+setlocal
+
+"${java_path}\bin\java.exe" %*

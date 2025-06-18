@@ -1,0 +1,6 @@
+@echo off
+setlocal
+set "JVM_PATH=${java_path}"
+set "PROJECT_PATH=%CD%"
+cd /d "%PROJECT_PATH%"
+"%PROJECT_PATH%\gradlew.bat" -Dorg.gradle.java.home="%JVM_PATH%" -Dfile.encoding=UTF-8 %*

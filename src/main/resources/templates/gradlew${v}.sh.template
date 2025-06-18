@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+JVM_PATH=${java_path}
+PROJECT_PATH="$(pwd)"
+cd "$PROJECT_PATH"
+"$PROJECT_PATH/gradlew" -Dorg.gradle.java.home="$JVM_PATH" -Dfile.encoding=UTF-8 "$@"

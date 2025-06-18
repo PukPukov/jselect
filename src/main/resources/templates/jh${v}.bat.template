@@ -1,0 +1,5 @@
+@echo off
+setlocal
+set JVM_PATH=${java_path}
+set JAVA_HOME=%JVM_PATH%
+%*

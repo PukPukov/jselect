@@ -1,0 +1,8 @@
+[
+  "java${v}.bat.template",
+  "java${v}.sh.template",
+  "jh${v}.bat.template",
+  "jh${v}.sh.template",
+  "gradlew${v}.bat.template",
+  "gradlew${v}.sh.template"
+]
